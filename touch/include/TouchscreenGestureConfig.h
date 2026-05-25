@@ -13,7 +13,7 @@ namespace lineage {
 namespace touch {
 
 const int TouchscreenGesture::kSupportedGestures = makeBitField(
-        kGestureUpVee, kGestureDownVee, kGestureLeftVee, kGestureRightVee,
+        kGestureDoubleTap, kGestureUpVee, kGestureDownVee, kGestureLeftVee, kGestureRightVee,
         kGestureCircle, kGestureDoubleSwipe,
         kGestureLeftToRight, kGestureRightToLeft, kGestureUpToDown, kGestureDownToUp,
         kGestureM, kGestureW, kGestureSingleTap);
